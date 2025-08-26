@@ -1,0 +1,20 @@
+samplist1=[10,20,30,'orange','grape']
+print(f"original list:{samplist1}\n")
+print(f"second element:{samplist1[1]}\n")
+samplist1[1]=25
+print(f"modified list:{samplist1}\n")
+samplist1.append('kiwi')
+print(f"list after appending:{samplist1}\n")
+samplist1.insert(1,15)
+print(f"list after inserting:{samplist1}\n")
+samplist1.remove('orange')
+print(f"list after removing 'orange':{samplist1}\n")
+poppeditem=samplist1.pop()
+print(f"list after popping last item({poppeditem}):{samplist1}\n")
+print(f"sliced list (element from index 2 onwards):{samplist1[2:]}\n")
+numeric_list=[5,1,8,2]
+numeric_list.sort()
+print(f"sorted numeric list:{numeric_list}\n")
+samplist1.reverse()
+print(f"reversed list:{samplist1}\n")
+print(f"length of list:{len(samplist1)}\n")
